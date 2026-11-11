@@ -1,0 +1,25 @@
+@reference "../index.css";
+
+.admin-container {
+  @apply min-h-screen bg-slate-950 text-slate-100 p-8 font-sans;
+}
+
+.admin-card {
+  @apply bg-slate-900 border border-slate-800 p-6 rounded-xl;
+}
+
+.status-badge {
+  @apply px-2.5 py-0.5 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20;
+}
+
+.modal-backdrop {
+  @apply fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4 z-50;
+}
+
+.modal-box {
+  @apply bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl;
+}
+
+.admin-input {
+  @apply w-full bg-slate-950 border border-slate-800 rounded-lg p-2.5 text-white text-sm focus:outline-none focus:border-purple-500;
+}
