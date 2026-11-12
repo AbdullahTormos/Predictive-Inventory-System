@@ -8,9 +8,8 @@ A full-stack inventory management platform that uses a Random Forest model to fo
 
 - Track products, stock levels, and movements in one place
 - Demand forecasting with a Random Forest model trained on historical data
-- [Reorder alerts / low-stock warnings: keep or delete]
-- [Dashboard with sales and stock charts: keep or delete]
-- [Add or remove features so this matches what you built]
+- Reorder alerts / low-stock warnings
+- Dashboard with sales and stock charts
 
 ## Tech Stack
 
@@ -19,10 +18,10 @@ A full-stack inventory management platform that uses a Random Forest model to fo
 | Frontend | React |
 | Backend | Node.js |
 | Database | SQL Server |
-| Machine learning | Random Forest [add library, e.g. scikit-learn] |
+| Machine learning | Random Forest  |
 
 ## How the Prediction Works
 
 1. Historical data is pulled from SQL Server: [list features, e.g. past sales, date, product category].
-2. A Random Forest model is trained to predict [what it predicts, e.g. demand for the next period].
-3. Predictions are served to the app and shown in [where they appear].
+2. A Random Forest model is trained to predict demand for the next period.
+3. Predictions are served to the app and shown
