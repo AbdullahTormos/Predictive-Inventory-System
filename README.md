@@ -22,6 +22,6 @@ A full-stack inventory management platform that uses a Random Forest model to fo
 
 ## How the Prediction Works
 
-1. Historical data is pulled from SQL Server: [list features, e.g. past sales, date, product category].
+1. Historical data is pulled from SQL Server: past sales, date, product category.
 2. A Random Forest model is trained to predict demand for the next period.
 3. Predictions are served to the app and shown
